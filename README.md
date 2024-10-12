@@ -7,7 +7,6 @@ Este módulo fornece funções utilitárias para manipulação de objetos em Pyt
   
 - **`load_object(file_path)`**: Carrega um objeto Python de um arquivo binário, utilizando a deserialização do `pickle`. Retorna o objeto carregado.
 
-**Nota**: O uso do `pickle` deve ser feito com cautela, especialmente ao carregar dados de fontes não confiáveis, devido a potenciais riscos de segurança.
 
 ---
 
@@ -32,8 +31,6 @@ This module provides utility functions for handling Python objects, focusing on 
 - **`save_object(file_path, object_to_save)`**: Saves a Python object to a binary file, creating the directory if necessary. It uses `pickle` serialization to persistently store the object.
   
 - **`load_object(file_path)`**: Loads a Python object from a binary file using `pickle` deserialization. It returns the loaded object.
-
-**Note**: The use of `pickle` should be done with caution, especially when loading data from untrusted sources, due to potential security risks.
 
 ---
 
